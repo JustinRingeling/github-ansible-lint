@@ -1,7 +1,9 @@
 ---
-- hosts: all
+
+- name: Some play
+  hosts: all
 
   tasks:
-    - name: test
+    - name: Test for debug.
       ansible.builtin.debug:
         msg: Hello world!
