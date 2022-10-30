@@ -1,6 +1,6 @@
 name: Ansible Lint
 
-On: push
+on: push
 
 jobs:
   build:
